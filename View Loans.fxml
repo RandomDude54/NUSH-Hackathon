@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextArea layoutX="68.0" layoutY="262.0" prefHeight="267.0" prefWidth="200.0" text="Current Loans:&#10;&#10;You owe John S$ XX&#10; &#10;Jack owes you S$ XX" />
+      <TextField layoutX="68.0" layoutY="197.0" prefHeight="25.0" prefWidth="200.0" promptText="Add Loan: e.g: person, value" />
+   </children>
+</AnchorPane>
